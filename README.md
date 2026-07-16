@@ -76,3 +76,23 @@ The highest number of rides occurred in:
 
 **Insight:**  
 Bike usage peaks during warmer months, creating an opportunity for targeted seasonal marketing campaigns.
+
+## Recommendations
+
+Based on the analysis, the following recommendations can help Cyclistic increase annual memberships:
+
+### 1. Convert Casual Riders into Annual Members
+
+Casual riders represent 40.7% of total rides and have longer average ride durations compared to members. Cyclistic should target this group with membership campaigns, discounts, and incentives to encourage conversion.
+
+### 2. Focus Marketing During Peak Usage Periods
+
+Saturday had the highest number of rides, and August recorded the highest monthly usage. Cyclistic should increase promotions during weekends and peak riding months when customer engagement is highest.
+
+### 3. Create Rider-Specific Marketing Strategies
+
+Annual members and casual riders demonstrate different riding behaviours. Cyclistic should promote convenience and cost savings to members while highlighting flexibility and recreational benefits to casual riders.
+
+## Conclusion
+
+This analysis shows that Cyclistic has a strong annual membership base, but casual riders provide a significant opportunity for growth. By understanding rider behaviour and applying targeted marketing strategies, Cyclistic can increase casual rider conversions and grow its membership program.
