@@ -105,3 +105,15 @@ This analysis shows that Cyclistic has a strong annual membership base, but casu
 - Dashboard design
 - Business insights and recommendations
 - Data storytelling
+
+- ## Project Structure
+
+cyclistic-bike-share-analysis
+
+- README.md
+- SQL
+  - cyclistic_analysis.sql
+- Tableau
+  - cyclistic_dashboard.twbx
+- Dashboard
+  - cyclistic_dashboard.png
