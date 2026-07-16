@@ -6,7 +6,7 @@ Cyclistic is a bike-share company that provides bicycles for riders across the c
 
 The goal of this analysis was to identify how casual riders and annual members use Cyclistic bikes differently and provide data-driven recommendations that could help increase annual memberships.
 
-Analysis Period:** April 2023 – September 2023
+Analysis Period:April 2023 – September 2023
 
 ---
 
@@ -23,8 +23,8 @@ The objective of this project was to analyze historical bike trip data and answe
 ## Tools Used
 
 MySQL - Used for importing, cleaning, transforming, and preparing Cyclistic trip data.
-Tableau Desktop** - Used to create visualizations and build an interactive dashboard.
-Excel/CSV Files** - Used as the original data source format.
+Tableau Desktop - Used to create visualizations and build an interactive dashboard.
+Excel/CSV Files - Used as the original data source format.
 
 ---
 
