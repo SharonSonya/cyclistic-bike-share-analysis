@@ -96,3 +96,12 @@ Annual members and casual riders demonstrate different riding behaviours. Cyclis
 ## Conclusion
 
 This analysis shows that Cyclistic has a strong annual membership base, but casual riders provide a significant opportunity for growth. By understanding rider behaviour and applying targeted marketing strategies, Cyclistic can increase casual rider conversions and grow its membership program.
+
+## Skills Demonstrated
+
+- Data cleaning and preparation
+- SQL data analysis
+- Data visualization with Tableau
+- Dashboard design
+- Business insights and recommendations
+- Data storytelling
