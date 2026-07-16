@@ -48,7 +48,7 @@ The dataset was prepared before analysis by:
 Members accounted for the majority of rides:
 
 Members: 2,131,682 rides (59.3%)
-  Casual riders:** 1,465,832 rides (40.7%)
+  Casual riders:1,465,832 rides (40.7%)
 
 Insight:
 Members generate more rides than casual riders, showing a strong existing membership base. However, casual riders represent a significant opportunity for membership growth.
