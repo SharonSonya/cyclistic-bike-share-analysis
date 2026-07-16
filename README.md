@@ -30,3 +30,49 @@ The dataset was prepared before analysis by:
 - Calculating ride length using start and end timestamps.
 - Creating additional fields such as day of the week and month for analysis.
 - Checking and preparing the data for visualization in Tableau.
+
+- ## Analysis & Insights
+
+### 1. Rider Type Analysis
+
+Annual members accounted for the majority of rides:
+
+- Annual members: 2,131,682 rides (59.3%)
+- Casual riders: 1,465,832 rides (40.7%)
+
+**Insight:**  
+Annual members generate more rides than casual riders, showing a strong existing membership base. However, casual riders represent a significant opportunity for membership growth.
+
+---
+
+### 2. Average Ride Length Analysis
+
+The average ride duration differed significantly between rider types:
+
+- Casual riders: 30.27 minutes
+- Annual members: 13.36 minutes
+
+**Insight:**  
+Casual riders spend more time on each trip compared to annual members, suggesting they may use Cyclistic bikes mainly for leisure or recreational purposes.
+
+---
+
+### 3. Weekly Ride Pattern Analysis
+
+The highest number of rides occurred on:
+
+- Saturday
+
+**Insight:**  
+Ride activity increases during weekends, indicating strong demand for leisure and recreational bike usage.
+
+---
+
+### 4. Monthly Ride Trend Analysis
+
+The highest number of rides occurred in:
+
+- August: 771,436 rides
+
+**Insight:**  
+Bike usage peaks during warmer months, creating an opportunity for targeted seasonal marketing campaigns.
