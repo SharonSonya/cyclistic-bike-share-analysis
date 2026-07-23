@@ -49,10 +49,9 @@ Members accounted for the majority of rides:
 Members: 2,131,682 rides (59.3%)
 Casual riders: 1,465,832 rides (40.7%)
 
-Insight:
-Members generate more rides than casual riders, showing a strong existing membership base. However, casual riders represent a significant opportunity for membership growth.
+**Insight:**
 
----
+Members generate more rides than casual riders, showing a strong existing membership base. However, casual riders represent a significant opportunity for membership growth.
 
 ### 2. Average Ride Length Analysis
 
@@ -61,10 +60,9 @@ The average ride duration differed significantly between rider types:
 Casual riders: 30.27 minutes
 Members: 13.36 minutes
 
-Insight:
-Casual riders have longer average trips compared to members, suggesting they may use Cyclistic bikes more for leisure and recreational activities, while members may use bikes more frequently for shorter everyday trips.
+**Insight:**
 
----
+Casual riders have longer average trips compared to members, suggesting they may use Cyclistic bikes more for leisure and recreational activities, while members may use bikes more frequently for shorter everyday trips.
 
 ### 3. Weekly Ride Pattern Analysis
 
@@ -81,7 +79,7 @@ The highest number of rides occurred on:
 | **Saturday** | **610,856** |
 
 
-Insight:
+**Insight:**
 Saturday recorded the highest number of rides (610,856), while Monday had the lowest (440,610). Ride activity steadily increases toward the weekend, suggesting that many riders use Cyclistic bikes for leisure and recreational purposes.
 
 
@@ -96,7 +94,7 @@ Saturday recorded the highest number of rides (610,856), while Monday had the lo
 | September  |     666,151 |
 
 
-Insight:
+**Insight:**
 Bike usage increased steadily from spring into summer, reaching its highest level in August (771,436 rides) before declining in September. This indicates that warmer months experience higher demand and present an ideal opportunity for seasonal marketing campaigns.
 
 
@@ -121,6 +119,7 @@ Different riding behaviours require different approaches:
 
  Promote the cost savings, convenience, and additional benefits of annual memberships to casual riders, especially those who make longer recreational trips. Tailored weekend promotions and targeted in-app offers could encourage them to convert into members.
 
+ ---
 
 ## Conclusion
 
