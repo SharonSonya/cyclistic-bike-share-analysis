@@ -1,4 +1,4 @@
-# # Cyclistic Bike Share Analysis (April–September 2023)
+#  Cyclistic Bike Share Analysis (April–September 2023)
 
 ## Project Overview
 **Dataset:** Divvy Trips Dataset (Cyclistic Case Study)
@@ -11,17 +11,15 @@ The goal of this analysis was to identify how casual riders and annual members u
 
 ![Cyclistic Dashboard](Dashboard/cyclistic_dashboard.png)
 
-
+**Analysis Period:** April 2023 – September 2023
 
 ## Business Task
 
 The objective of this project was to analyze historical bike trip data and answer the following questions:
 
- How do annual members and casual riders use Cyclistic bikes differently?
- What patterns can be identified in ride frequency and ride duration?
- How can Cyclistic encourage casual riders to become annual members?
-
----
+- How do annual members and casual riders use Cyclistic bikes differently?
+- What patterns can be identified in ride frequency and ride duration?
+- How can Cyclistic encourage casual riders to become annual members?
 
 ## Tools Used
 
@@ -35,14 +33,12 @@ Excel/CSV Files - Used as the original data source format.
 
 The dataset was prepared before analysis by:
 
- Importing monthly Cyclistic trip data into MySQL.
- Combining multiple monthly datasets into one analysis table.
- Cleaning and formatting date and time fields.
- Calculating ride length using start and end timestamps.
- Creating additional fields such as day of week and month for analysis.
- Checking and preparing the cleaned data for visualization in Tableau.
-
----
+- Importing monthly Cyclistic trip data into MySQL.
+- Combining multiple monthly datasets into one analysis table.
+- Cleaning and formatting date and time fields.
+- Calculating ride length using start and end timestamps.
+- Creating additional fields such as day of week and month for analysis.
+- Checking and preparing the cleaned data for visualization in Tableau.
 
 ## Analysis & Insights
 
@@ -83,8 +79,6 @@ The highest number of rides occurred on:
 | Thursday     |     528,953 |
 | Friday       |     550,863 |
 | **Saturday** | **610,856** |
-
-
 
 
 Insight:
