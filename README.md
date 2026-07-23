@@ -9,8 +9,7 @@ The goal of this analysis was to identify how casual riders and annual members u
 
 ## Dashboard Preview
 
-![Cyclistic Dashboard](Dashboard/cyclistic_dashboard.png)
-
+![Cyclistic Dashboard](Cyclistic_Dashboard.png)
 **Analysis Period:** April 2023 – September 2023
 
 ## Business Task
