@@ -9,9 +9,7 @@ The goal of this analysis was to identify how casual riders and annual members u
 
 ## Dashboard Preview
 
-![Cyclistic Dashboard](Cyclistic_Dashboard.png)
-**Analysis Period:** April 2023 – September 2023
-
+![Cyclistic Dashboard](./cyclistic_dashboard.png)
 ## Business Task
 
 The objective of this project was to analyze historical bike trip data and answer the following questions:
