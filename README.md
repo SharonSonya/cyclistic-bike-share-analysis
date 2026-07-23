@@ -1,14 +1,17 @@
-# Cyclistic Bike Share Analysis
+# # Cyclistic Bike Share Analysis (April–September 2023)
 
 ## Project Overview
+**Dataset:** Divvy Trips Dataset (Cyclistic Case Study)
 
 Cyclistic is a bike-share company that provides bicycles for riders across the city. This project analyzes bike usage patterns to understand the differences between annual members and casual riders.
 
 The goal of this analysis was to identify how casual riders and annual members use Cyclistic bikes differently and provide data-driven recommendations that could help increase annual memberships.
 
-Analysis Period:April 2023 – September 2023
+## Dashboard Preview
 
----
+![Cyclistic Dashboard](Dashboard/cyclistic_dashboard.png)
+
+
 
 ## Business Task
 
@@ -48,7 +51,7 @@ The dataset was prepared before analysis by:
 Members accounted for the majority of rides:
 
 Members: 2,131,682 rides (59.3%)
-  Casual riders:1,465,832 rides (40.7%)
+Casual riders: 1,465,832 rides (40.7%)
 
 Insight:
 Members generate more rides than casual riders, showing a strong existing membership base. However, casual riders represent a significant opportunity for membership growth.
@@ -59,8 +62,8 @@ Members generate more rides than casual riders, showing a strong existing member
 
 The average ride duration differed significantly between rider types:
 
-Casual riders:30.27 minutes
-Members:13.36 minutes
+Casual riders: 30.27 minutes
+Members: 13.36 minutes
 
 Insight:
 Casual riders have longer average trips compared to members, suggesting they may use Cyclistic bikes more for leisure and recreational activities, while members may use bikes more frequently for shorter everyday trips.
@@ -71,23 +74,37 @@ Casual riders have longer average trips compared to members, suggesting they may
 
 The highest number of rides occurred on:
 
-Saturday
+| Day          | Total Rides |
+| ------------ | ----------: |
+| Sunday       |     476,903 |
+| Monday       |     440,610 |
+| Tuesday      |     488,813 |
+| Wednesday    |     500,516 |
+| Thursday     |     528,953 |
+| Friday       |     550,863 |
+| **Saturday** | **610,856** |
+
+
+
 
 Insight:
-Ride activity increases during weekends, indicating strong demand for recreational bike usage.
+Saturday recorded the highest number of rides (610,856), while Monday had the lowest (440,610). Ride activity steadily increases toward the weekend, suggesting that many riders use Cyclistic bikes for leisure and recreational purposes.
 
----
 
 ### 4. Monthly Ride Trend Analysis
+| Month      | Total Rides |
+| ---------- | ----------: |
+| April      |      63,189 |
+| May        |     604,756 |
+| June       |     719,545 |
+| July       |     767,437 |
+| **August** | **771,436** |
+| September  |     666,151 |
 
-The highest number of rides occurred in:
-
-August: 771,436 rides
 
 Insight:
-Bike usage peaks during warmer months, creating opportunities for seasonal membership campaigns.
+Bike usage increased steadily from spring into summer, reaching its highest level in August (771,436 rides) before declining in September. This indicates that warmer months experience higher demand and present an ideal opportunity for seasonal marketing campaigns.
 
----
 
 ## Recommendations
 
@@ -102,16 +119,14 @@ Casual riders represent 40.7% of total rides and have longer average ride durati
 
 ### 2. Focus Marketing During Peak Usage Periods
 
-Saturday had the highest number of rides, and August recorded the highest monthly usage. Cyclistic should increase promotional campaigns during weekends and peak riding months.
+Saturday recorded 610,856 rides, while August recorded 771,436 rides. Cyclistic should schedule promotional campaigns and membership conversion offers during these peak demand periods to maximize customer engagement.
 
 ### 3. Create Rider-Specific Marketing Strategies
 
 Different riding behaviours require different approaches:
 
- Promote convenience, savings, and commuting benefits to casual riders who ride frequently.
- Highlight flexibility and recreational benefits to occasional riders.
+ Promote the cost savings, convenience, and additional benefits of annual memberships to casual riders, especially those who make longer recreational trips. Tailored weekend promotions and targeted in-app offers could encourage them to convert into members.
 
----
 
 ## Conclusion
 
