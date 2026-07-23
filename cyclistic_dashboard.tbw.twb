@@ -1,0 +1,1445 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0603.1643                               -->
+<workbook original-version='18.1' source-build='2026.2.0 (20262.26.0603.1643)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <DataOrientationSidePane />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='cyclistic_2023_analysis (cyclistic_2023)' inline='true' name='federated.0p9s5rf1tpb3ej19bercu0se4me2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='mysql.0m0tlca1k6vr8d11eugp614bbgwr'>
+            <connection class='mysql' dbname='cyclistic_2023' odbc-native-protocol='' one-time-sql='' port='3306' server='localhost' source-charset='' username='root' />
+          </named-connection>
+        </named-connections>
+        <relation connection='mysql.0m0tlca1k6vr8d11eugp614bbgwr' name='cyclistic_2023_analysis' table='[cyclistic_2023_analysis]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>ride_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ride_id]</local-name>
+            <parent-name>[cyclistic_2023_analysis]</parent-name>
+            <remote-alias>ride_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>false</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rideable_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[rideable_type]</local-name>
+            <parent-name>[cyclistic_2023_analysis]</parent-name>
+            <remote-alias>rideable_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>started_at</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[started_at]</local-name>
+            <parent-name>[cyclistic_2023_analysis]</parent-name>
+            <remote-alias>started_at</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+            <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ended_at</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[ended_at]</local-name>
+            <parent-name>[cyclistic_2023_analysis]</parent-name>
+            <remote-alias>ended_at</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_TYPE_TIMESTAMP&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_TYPE_TIMESTAMP&quot;</attribute>
+            </attributes>
+            <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>start_station_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[start_station_name]</local-name>
+            <parent-name>[cyclistic_2023_analysis]</parent-name>
+            <remote-alias>start_station_name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>start_station_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[start_station_id]</local-name>
+            <parent-name>[cyclistic_2023_analysis]</parent-name>
+            <remote-alias>start_station_id</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>end_station_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[end_station_name]</local-name>
+            <parent-name>[cyclistic_2023_analysis]</parent-name>
+            <remote-alias>end_station_name</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>true</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>end_station_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[end_station_id]</local-name>
+            <parent-name>[cyclistic_2023_analysis]</parent-name>
+            <remote-alias>end_station_id</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>start_lat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[start_lat]</local-name>
+            <parent-name>[cyclistic_2023_analysis]</parent-name>
+            <remote-alias>start_lat</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>start_lng</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[start_lng]</local-name>
+            <parent-name>[cyclistic_2023_analysis]</parent-name>
+            <remote-alias>start_lng</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>end_lat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[end_lat]</local-name>
+            <parent-name>[cyclistic_2023_analysis]</parent-name>
+            <remote-alias>end_lat</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>end_lng</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[end_lng]</local-name>
+            <parent-name>[cyclistic_2023_analysis]</parent-name>
+            <remote-alias>end_lng</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DOUBLE&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_DOUBLE&quot;</attribute>
+            </attributes>
+            <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>member_casual</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[member_casual]</local-name>
+            <parent-name>[cyclistic_2023_analysis]</parent-name>
+            <remote-alias>member_casual</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <collation charset='296' flag='3' name='LROOT_S1' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ride_length_minutes</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ride_length_minutes]</local-name>
+            <parent-name>[cyclistic_2023_analysis]</parent-name>
+            <remote-alias>ride_length_minutes</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <scale>2</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Day of Week' datatype='string' name='[Calculation_1222680460877824]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='DATENAME(&apos;weekday&apos;, [started_at])' />
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[Month]' role='dimension' type='ordinal' user:agg-type='Month' user:base-field='started_at' user:ui-builder='date-bin-builder'>
+        <calculation class='tableau' formula='DATEPART(&apos;month&apos;, [started_at])' />
+      </column>
+      <column caption='cyclistic_2023_analysis' datatype='table' name='[__tableau_internal_object_id__].[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='End Lat' datatype='real' name='[end_lat]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='End Lng' datatype='real' name='[end_lng]' role='measure' type='quantitative' />
+      <column caption='End Station Id' datatype='string' name='[end_station_id]' role='dimension' type='nominal' />
+      <column caption='End Station Name' datatype='string' name='[end_station_name]' role='dimension' type='nominal' />
+      <column caption='Ended At' datatype='datetime' name='[ended_at]' role='dimension' type='ordinal' />
+      <column caption='Member Casual' datatype='string' name='[member_casual]' role='dimension' type='nominal' />
+      <column aggregation='CountD' caption='Ride Id' datatype='string' default-role='measure' default-type='quantitative' name='[ride_id]' role='dimension' type='nominal' />
+      <column caption='Ride Length Minutes' datatype='real' name='[ride_length_minutes]' role='measure' type='quantitative' />
+      <column caption='Rideable Type' datatype='string' name='[rideable_type]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Start Lat' datatype='real' name='[start_lat]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='Start Lng' datatype='real' name='[start_lng]' role='measure' type='quantitative' />
+      <column caption='Start Station Id' datatype='string' name='[start_station_id]' role='dimension' type='nominal' />
+      <column caption='Start Station Name' datatype='string' name='[start_station_name]' role='dimension' type='nominal' />
+      <column caption='Started At' datatype='datetime' name='[started_at]' role='dimension' type='ordinal' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/A/Desktop/Sharon folder/DIVVY dataset/2019/cyclistic_dashboard.twb Files/Data/PORTFOLIO PROJECTS/cyclistic_2023_analysis (cyclistic_2023)_cyclistic extract.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='07/15/2026 04:36:28 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='cyclistic_2023_analysis (cyclistic_2023)' increment-value='%null%' refresh-type='create' rows-inserted='3597514' timestamp-start='2026-07-15 16:33:47.053' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>ride_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ride_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ride_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>cyclistic_2023_analysis</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3597514</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='3' name='LROOT_S1' />
+              <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rideable_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[rideable_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rideable_type</remote-alias>
+              <ordinal>1</ordinal>
+              <family>cyclistic_2023_analysis</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='3' name='LROOT_S1' />
+              <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>started_at</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[started_at]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>started_at</remote-alias>
+              <ordinal>2</ordinal>
+              <family>cyclistic_2023_analysis</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>3446658</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ended_at</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[ended_at]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ended_at</remote-alias>
+              <ordinal>3</ordinal>
+              <family>cyclistic_2023_analysis</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>3306561</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>start_station_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[start_station_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>start_station_name</remote-alias>
+              <ordinal>4</ordinal>
+              <family>cyclistic_2023_analysis</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2216</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='3' name='LROOT_S1' />
+              <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>start_station_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[start_station_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>start_station_id</remote-alias>
+              <ordinal>5</ordinal>
+              <family>cyclistic_2023_analysis</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2191</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='3' name='LROOT_S1' />
+              <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>end_station_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[end_station_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>end_station_name</remote-alias>
+              <ordinal>6</ordinal>
+              <family>cyclistic_2023_analysis</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2241</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='3' name='LROOT_S1' />
+              <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>end_station_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[end_station_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>end_station_id</remote-alias>
+              <ordinal>7</ordinal>
+              <family>cyclistic_2023_analysis</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2166</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='3' name='LROOT_S1' />
+              <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>start_lat</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[start_lat]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>start_lat</remote-alias>
+              <ordinal>8</ordinal>
+              <family>cyclistic_2023_analysis</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>298087</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>start_lng</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[start_lng]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>start_lng</remote-alias>
+              <ordinal>9</ordinal>
+              <family>cyclistic_2023_analysis</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>300500</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>end_lat</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[end_lat]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>end_lat</remote-alias>
+              <ordinal>10</ordinal>
+              <family>cyclistic_2023_analysis</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3348</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>end_lng</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[end_lng]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>end_lng</remote-alias>
+              <ordinal>11</ordinal>
+              <family>cyclistic_2023_analysis</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3369</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>member_casual</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[member_casual]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>member_casual</remote-alias>
+              <ordinal>12</ordinal>
+              <family>cyclistic_2023_analysis</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='3' name='LROOT_S1' />
+              <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ride_length_minutes</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[ride_length_minutes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ride_length_minutes</remote-alias>
+              <ordinal>13</ordinal>
+              <family>cyclistic_2023_analysis</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16380</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;South Africa&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='cyclistic_2023_analysis' id='cyclistic_2023_analysis_4369255F42C14D1ABD0421AAA9812825'>
+            <properties context=''>
+              <relation connection='mysql.0m0tlca1k6vr8d11eugp614bbgwr' name='cyclistic_2023_analysis' table='[cyclistic_2023_analysis]' type='table' />
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name=' Rides by membership type'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='16'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cyclistic_2023_analysis (cyclistic_2023)' name='federated.0p9s5rf1tpb3ej19bercu0se4me2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0p9s5rf1tpb3ej19bercu0se4me2'>
+            <column-instance column='[ride_id]' derivation='CountD' name='[ctd:ride_id:qk]' pivot='key' type='quantitative' />
+            <column caption='Member Casual' datatype='string' name='[member_casual]' role='dimension' type='nominal' />
+            <column-instance column='[member_casual]' derivation='None' name='[none:member_casual:nk]' pivot='key' type='nominal' />
+            <column aggregation='CountD' caption='Ride Id' datatype='string' default-role='measure' default-type='quantitative' name='[ride_id]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0p9s5rf1tpb3ej19bercu0se4me2].[none:member_casual:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:member_casual:nk]' member='&quot;casual&quot;' />
+              <groupfilter function='member' level='[none:member_casual:nk]' member='&quot;member&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0p9s5rf1tpb3ej19bercu0se4me2].[none:member_casual:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='auto-subtitle' class='0' field='[federated.0p9s5rf1tpb3ej19bercu0se4me2].[ctd:ride_id:qk]' scope='rows' value='false' />
+            <format attr='title' class='0' field='[federated.0p9s5rf1tpb3ej19bercu0se4me2].[ctd:ride_id:qk]' scope='rows' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0p9s5rf1tpb3ej19bercu0se4me2].[none:member_casual:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0p9s5rf1tpb3ej19bercu0se4me2].[ctd:ride_id:qk]</rows>
+        <cols>[federated.0p9s5rf1tpb3ej19bercu0se4me2].[none:member_casual:nk]</cols>
+      </table>
+      <simple-id uuid='{E81D18B5-F4EE-423B-8E21-C75AA836D0DA}' />
+    </worksheet>
+    <worksheet name='Average Ride Length'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='16'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cyclistic_2023_analysis (cyclistic_2023)' name='federated.0p9s5rf1tpb3ej19bercu0se4me2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0p9s5rf1tpb3ej19bercu0se4me2'>
+            <column-instance column='[ride_length_minutes]' derivation='Avg' name='[avg:ride_length_minutes:qk]' pivot='key' type='quantitative' />
+            <column caption='Member Casual' datatype='string' name='[member_casual]' role='dimension' type='nominal' />
+            <column-instance column='[member_casual]' derivation='None' name='[none:member_casual:nk]' pivot='key' type='nominal' />
+            <column caption='Ride Length Minutes' datatype='real' name='[ride_length_minutes]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.0p9s5rf1tpb3ej19bercu0se4me2].[avg:ride_length_minutes:qk]' value='61' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0p9s5rf1tpb3ej19bercu0se4me2].[none:member_casual:nk]' value='59' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0p9s5rf1tpb3ej19bercu0se4me2].[none:member_casual:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0p9s5rf1tpb3ej19bercu0se4me2].[avg:ride_length_minutes:qk]</rows>
+        <cols>[federated.0p9s5rf1tpb3ej19bercu0se4me2].[none:member_casual:nk]</cols>
+      </table>
+      <simple-id uuid='{D0C8F887-E9C0-40EF-A736-0A73C74DEC5E}' />
+    </worksheet>
+    <worksheet name='Member vs Casual Rides by Day of Week'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cyclistic_2023_analysis (cyclistic_2023)' name='federated.0p9s5rf1tpb3ej19bercu0se4me2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0p9s5rf1tpb3ej19bercu0se4me2'>
+            <column caption='Day of Week' datatype='string' name='[Calculation_1222680460877824]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='DATENAME(&apos;weekday&apos;, [started_at])' />
+            </column>
+            <column-instance column='[ride_id]' derivation='CountD' name='[ctd:ride_id:qk]' pivot='key' type='quantitative' />
+            <column caption='Member Casual' datatype='string' name='[member_casual]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_1222680460877824]' derivation='None' name='[none:Calculation_1222680460877824:nk]' pivot='key' type='nominal' />
+            <column-instance column='[member_casual]' derivation='None' name='[none:member_casual:nk]' pivot='key' type='nominal' />
+            <column aggregation='CountD' caption='Ride Id' datatype='string' default-role='measure' default-type='quantitative' name='[ride_id]' role='dimension' type='nominal' />
+            <column caption='Started At' datatype='datetime' name='[started_at]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0p9s5rf1tpb3ej19bercu0se4me2].[none:member_casual:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0p9s5rf1tpb3ej19bercu0se4me2].[ctd:ride_id:qk]</rows>
+        <cols>([federated.0p9s5rf1tpb3ej19bercu0se4me2].[none:member_casual:nk] / [federated.0p9s5rf1tpb3ej19bercu0se4me2].[none:Calculation_1222680460877824:nk])</cols>
+      </table>
+      <simple-id uuid='{30DC839A-C0E5-43A7-8DC4-97309B880638}' />
+    </worksheet>
+    <worksheet name='Rides by Day of Week'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='16'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cyclistic_2023_analysis (cyclistic_2023)' name='federated.0p9s5rf1tpb3ej19bercu0se4me2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0p9s5rf1tpb3ej19bercu0se4me2'>
+            <column caption='Day of Week' datatype='string' name='[Calculation_1222680460877824]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='DATENAME(&apos;weekday&apos;, [started_at])' />
+            </column>
+            <column-instance column='[ride_id]' derivation='CountD' name='[ctd:ride_id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1222680460877824]' derivation='None' name='[none:Calculation_1222680460877824:nk]' pivot='key' type='nominal' />
+            <column aggregation='CountD' caption='Ride Id' datatype='string' default-role='measure' default-type='quantitative' name='[ride_id]' role='dimension' type='nominal' />
+            <column caption='Started At' datatype='datetime' name='[started_at]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='auto-subtitle' class='0' field='[federated.0p9s5rf1tpb3ej19bercu0se4me2].[ctd:ride_id:qk]' scope='rows' value='false' />
+            <format attr='title' class='0' field='[federated.0p9s5rf1tpb3ej19bercu0se4me2].[ctd:ride_id:qk]' scope='rows' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0p9s5rf1tpb3ej19bercu0se4me2].[ctd:ride_id:qk]</rows>
+        <cols>[federated.0p9s5rf1tpb3ej19bercu0se4me2].[none:Calculation_1222680460877824:nk]</cols>
+      </table>
+      <simple-id uuid='{8A27ABB0-A25B-42A9-9EE4-B76634320D94}' />
+    </worksheet>
+    <worksheet name='Rides by Month'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='16'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cyclistic_2023_analysis (cyclistic_2023)' name='federated.0p9s5rf1tpb3ej19bercu0se4me2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0p9s5rf1tpb3ej19bercu0se4me2'>
+            <column aggregation='Sum' datatype='integer' name='[Month]' role='dimension' type='ordinal' user:agg-type='Month' user:base-field='started_at' user:ui-builder='date-bin-builder'>
+              <calculation class='tableau' formula='DATEPART(&apos;month&apos;, [started_at])' />
+            </column>
+            <column-instance column='[ride_id]' derivation='CountD' name='[ctd:ride_id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:ok]' pivot='key' type='ordinal' />
+            <column aggregation='CountD' caption='Ride Id' datatype='string' default-role='measure' default-type='quantitative' name='[ride_id]' role='dimension' type='nominal' />
+            <column caption='Started At' datatype='datetime' name='[started_at]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0p9s5rf1tpb3ej19bercu0se4me2].[ctd:ride_id:qk]</rows>
+        <cols>[federated.0p9s5rf1tpb3ej19bercu0se4me2].[none:Month:ok]</cols>
+      </table>
+      <simple-id uuid='{3E554FBC-FF27-40A0-8A61-E15D3C2D478D}' />
+    </worksheet>
+    <worksheet name='Total Rides'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='16'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='cyclistic_2023_analysis (cyclistic_2023)' name='federated.0p9s5rf1tpb3ej19bercu0se4me2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0p9s5rf1tpb3ej19bercu0se4me2'>
+            <column-instance column='[ride_id]' derivation='CountD' name='[ctd:ride_id:qk]' pivot='key' type='quantitative' />
+            <column aggregation='CountD' caption='Ride Id' datatype='string' default-role='measure' default-type='quantitative' name='[ride_id]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='706' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.0p9s5rf1tpb3ej19bercu0se4me2].[ctd:ride_id:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>Æ&#10;</run>
+                <run fontsize='48'><![CDATA[<[federated.0p9s5rf1tpb3ej19bercu0se4me2].[ctd:ride_id:qk]>  ]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{95F2FBC7-A36E-4D37-A512-1A6504F82551}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Cyclistic Dashboard '>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='24'>Cyclistic Bike Share Analysis Dashboard</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='25' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='30' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='7875' id='31' type-v2='title' w='98400' x='800' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='90125' id='28' param='vert' type-v2='layout-flow' w='98400' x='800' y='8875'>
+              <zone h='90125' id='26' type-v2='layout-basic' w='98400' x='800' y='8875'>
+                <zone forceUpdate='true' h='90125' id='37' type-v2='text' w='98400' x='800' y='8875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='26625' id='11' name=' Rides by membership type' w='78900' x='81500' y='8625' />
+        <zone h='33500' id='12' name='Average Ride Length' w='72000' x='3000' y='28875' />
+        <zone h='36000' id='13' name='Rides by Day of Week' w='76400' x='84500' y='35375' />
+        <zone h='19750' id='14' name='Total Rides' w='67100' x='3000' y='8375' />
+        <zone h='35500' id='18' name='Rides by Month' w='80500' x='2000' y='64625' />
+        <zone forceUpdate='true' h='28500' id='38' type-v2='text' w='78500' x='84400' y='71250'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#1b1b1b' fontsize='18' underline='true'>Key Insights</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#1b1b1b' fontsize='15'>.Casual riders take longer trips on average compared to members.</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#1b1b1b' fontsize='15'>.Members show more consistent usage throughout the week.</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#1b1b1b' fontsize='15'>.Weekend demand is higher among casual riders.</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#1b1b1b' fontsize='15'>.Converting casual riders into members could increase long term</run>
+            <run bold='true' fontcolor='#1b1b1b' fontsize='11'>Æ </run>
+            <run bold='true' fontcolor='#1b1b1b' fontsize='15'>customer value</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontsize='24'>Cyclistic Bike Share Analysis Dashboard</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1450' minheight='1450' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='44' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='43' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='7875' id='31' type-v2='title' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='158' h='19750' id='14' is-fixed='true' name='Total Rides' w='67100' x='3000' y='8375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='213' h='26625' id='11' is-fixed='true' name=' Rides by membership type' w='78900' x='81500' y='8625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='90125' id='37' type-v2='text' w='98400' x='800' y='8875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='268' h='33500' id='12' is-fixed='true' name='Average Ride Length' w='72000' x='3000' y='28875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='36000' id='13' is-fixed='true' name='Rides by Day of Week' w='76400' x='84500' y='35375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35500' id='18' is-fixed='true' name='Rides by Month' w='80500' x='2000' y='64625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='28500' id='38' type-v2='text' w='78500' x='84400' y='71250'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#1b1b1b' fontsize='18' underline='true'>Key Insights</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#1b1b1b' fontsize='15'>.Casual riders take longer trips on average compared to members.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#1b1b1b' fontsize='15'>.Members show more consistent usage throughout the week.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#1b1b1b' fontsize='15'>.Weekend demand is higher among casual riders.</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#1b1b1b' fontsize='15'>.Converting casual riders into members could increase long term</run>
+                    <run bold='true' fontcolor='#1b1b1b' fontsize='11'>Æ </run>
+                    <run bold='true' fontcolor='#1b1b1b' fontsize='15'>customer value</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{E59DDE96-C7C4-4ACF-9EE7-AE34A6BA51ED}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Total Rides'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='28'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{98CE2DE3-ADF6-4675-9DFB-4C35434EF8CF}' />
+    </window>
+    <window class='worksheet' name=' Rides by membership type'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0p9s5rf1tpb3ej19bercu0se4me2].[none:member_casual:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BC3ED074-42DD-4A85-BC4E-336DFF33C002}' />
+    </window>
+    <window class='worksheet' name='Average Ride Length'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0p9s5rf1tpb3ej19bercu0se4me2].[none:member_casual:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7CED92E0-5A39-4CA7-9BC7-47F9F1D6B67F}' />
+    </window>
+    <window class='worksheet' name='Rides by Day of Week'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5F6453E1-2458-47EA-AF71-9D70C569DE7C}' />
+    </window>
+    <window class='worksheet' name='Member vs Casual Rides by Day of Week'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0p9s5rf1tpb3ej19bercu0se4me2].[none:member_casual:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9719D133-F988-496E-8C04-04C9C2E32D55}' />
+    </window>
+    <window class='worksheet' name='Rides by Month'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='29'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7CBC49B8-EBD1-419C-B9CC-6B57259EBD7E}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Cyclistic Dashboard '>
+      <viewpoints>
+        <viewpoint name=' Rides by membership type'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Average Ride Length'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Rides by Day of Week'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Rides by Month'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Rides' />
+      </viewpoints>
+      <active id='11' />
+      <simple-id uuid='{0E843918-B50E-41C9-A71D-8F8E1EB3A63B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Cyclistic Dashboard ' width='192'>
+      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
+      ZHPTcCkAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+  <data-orientation>
+    <data-orientation-item>
+      <simple-id uuid='{E59DDE96-C7C4-4ACF-9EE7-AE34A6BA51ED}' />
+      <desc>Cyclistic 2023 Bike Share Analysis
+
+This dashboard compares casual vs member riders to identify opportunities to increase membership.
+
+Key Findings
+
+1..Casual riders take longer trips on average compared to members.
+2.Members show more consistent usage throughout the week.
+3.Weekend demand is higher among casual riders.
+4.Converting casual riders into members could increase long term customer value</desc>
+    </data-orientation-item>
+  </data-orientation>
+</workbook>
