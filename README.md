@@ -19,7 +19,7 @@ This project analyzes Cyclistic's historical bike-share data to understand the d
 
 ### Tableau Dashboard
 
-![Tableau Dashboard](./Dashboard/cyclistic_dashboard.png)
+![Tableau Dashboard](./Tableau/cyclistic_dashboard.png)
 
 ---
 
