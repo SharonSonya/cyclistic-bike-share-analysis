@@ -175,15 +175,17 @@ This analysis demonstrates that Cyclistic has a strong annual membership base wh
 ```text
 cyclistic-bike-share-analysis
 │
-├── Dashboard
-│   ├── cyclistic_dashboard.png
+├── PowerBI
+│   
 │   └── cyclistic_powerbi_dashboard.png
+│
+├── Tableau
+│   └── cyclistic_dashboard.twb
+    └── cyclistic_dashboard.png
 │
 ├── SQL
 │   └── Cyclistic_Analysis.sql
-│
-├── Tableau
-│   └── cyclistic_dashboard.twbx
-│
+│    
+│── LICENSE
 └── README.md
 ```
