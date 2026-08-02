@@ -12,7 +12,9 @@ This project analyzes Cyclistic's historical bike-share data to understand the d
 
 ### Power BI Dashboard
 
-![Power BI Dashboard](./Dashboard/cyclistic_powerbi_dashboard.png)
+## Power BI Dashboard
+
+![Power BI Dashboard](PowerBI/cyclistic_powerbi_dashboard.png)
 
 > **Note:**> **Note:** The Power BI (.pbix) file exceeds GitHub's 100 MB file size limit and is therefore not included in this repository. The dashboard preview above demonstrates the final report.
 
